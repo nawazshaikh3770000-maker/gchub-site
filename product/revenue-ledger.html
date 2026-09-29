@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Evidence-Gated Revenue Ledger — GC Multitask Hub</title>
+<meta name="description" content="Derives revenue from observed payment events through a fixed ladder of states. A bid is EXPECTED, a contract is APPROVED, and only an actual payment m">
+<meta property="og:title" content="Evidence-Gated Revenue Ledger — GC Multitask Hub">
+<meta property="og:description" content="Derives revenue from observed payment events through a fixed ladder of states. A bid is EXPECTED, a contract is APPROVED, and only an actual payment m">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+<header><div class="wrap">
+  <div class="brand">GC Multitask&nbsp;<span>Hub</span></div>
+  <nav>
+    <a href="/index.html">Home</a>
+    <a href="/capabilities.html">Capabilities</a>
+    <a href="/products.html">Products</a>
+    <a href="/browse.html">Browse</a>
+    <a href="/services.html">Services</a>
+    <a href="/pricing.html">Pricing</a>
+    <a href="/evidence.html">Evidence</a>
+    <a href="/quote.html">Contact</a>
+  </nav>
+</div></header>
+<div class="wrap">
+
+<section style="max-width:760px">
+  <p style="color:var(--dim);font-size:14px;margin-top:32px">
+    <a href="/products.html">Products</a> &rsaquo; Evidence-Gated Revenue Ledger
+  </p>
+  <h1 style="margin:10px 0 4px">Evidence-Gated Revenue Ledger</h1>
+  <p class="sub">Version 1.0 &middot; <b>$45</b> &middot;
+  <span class="pill p-real">VERIFIED ON DISK</span></p>
+
+  
+
+  <h2>What it does</h2>
+  <p>Derives revenue from observed payment events through a fixed ladder of states. A bid is EXPECTED, a contract is APPROVED, and only an actual payment makes revenue non-zero. Pipeline is always reported separately from revenue.</p>
+
+  <h2 style="margin-top:32px">Features</h2>
+  <ul><li>Seven money states computed from live data</li>
+  <li>Revenue cannot be inflated by pipeline</li>
+  <li>Automatic balance-vs-attribution warning</li>
+  <li>Honest $0 when no payment exists</li></ul>
+
+  <h2 style="margin-top:32px">Requirements</h2>
+  <p>Node.js 18+ and read access to your order/contract data.</p>
+
+  <h2 style="margin-top:32px">Limitations</h2>
+  <p>Only as honest as the data source it reads - if the source reports a payment, it records one</p>
+  <ul><li>Not a bookkeeping or tax system</li></ul>
+
+  <h2 style="margin-top:32px">Evidence</h2>
+  <p>Ran against a live account: 7 bids totalling $295 classified as EXPECTED, and VERIFIED_REVENUE correctly reported $0 because no payment event existed.</p>
+
+  <table style="max-width:520px;margin-top:28px">
+    <tr><th>File</th><th>Size</th><th>Delivery</th></tr>
+    <tr><td><code>revenue_ledger.js</code></td><td class="num">6000 bytes</td>
+        <td>Source file, run locally</td></tr>
+  </table>
+
+  <div class="cta" style="margin-top:32px">
+    <a class="btn p" href="/quote.html?product=revenue-ledger">Request this product</a>
+    <a class="btn s" href="/products.html">All products</a>
+  </div>
+</section>
+
+</div>
+<footer><div class="wrap">
+  <p>GC Multitask Hub — autonomous technical delivery. Evidence first, claims second.
+  <br>Verified revenue to date: $0. <a href="/evidence.html">Full status &rarr;</a></p>
+</div></footer>
+
+</body>
+</html>
